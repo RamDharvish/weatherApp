@@ -133,30 +133,31 @@ input::placeholder {
 @media(max-width:300px){
     
     .weather-searchForm{
-        font-size: 30%;
+        font-size: 20%;
     }
 }
-@media(max-width:250px){
-    
-    .weather-searchForm{
-        font-size: 30%;
-    }
-}
+
 @media(max-width:280px){
     
     .weather-searchForm{
         font-size: 30%;
     }
 }
-@media(max-width:160px){
+@media(min-width:280px){
     
     .weather-searchForm{
-        font-size: 10%;
-    }
-    .weather-card {
-        width: 100%;
+        font-size: 30%;
     }
 }
+
+@media(max-width:250px){
+    
+    .weather-searchForm{
+        font-size: 30%;
+    }
+}
+
+
 @media(max-width:180px){
     
     .weather-searchForm{
@@ -166,6 +167,7 @@ input::placeholder {
         width: 100%;
     }
 }
+
 @media(max-width:178px){
     
     .weather-searchForm{
@@ -178,6 +180,16 @@ input::placeholder {
         font-size: 15px;
     }
 }
+@media(max-width:160px){
+    
+    .weather-searchForm{
+        font-size: 10%;
+    }
+    .weather-card {
+        width: 100%;
+    }
+}
+
 @media(max-width:150px){
     
     .weather-searchForm{
@@ -207,3 +219,4 @@ input::placeholder {
         
     }
 }
+
